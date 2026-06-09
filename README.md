@@ -69,3 +69,6 @@ kubectl get pods -A | grep datadog
 chmod +x ai-agent/troubleshoot.sh
 ./ai-agent/troubleshoot.sh assessment
 ```
+
+
+h
