@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: assessment-app
-          image: DOCKER_USERNAME/assessment-app:latest
+          image: pareenrathore/assessment-app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 5000

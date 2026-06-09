@@ -15,16 +15,16 @@ This single repository contains:
 Replace:
 
 ```text
-DOCKER_USERNAME
-YOUR_GITHUB_USERNAME
+pareenrathore
+pareenrathore
 PASTE_DATADOG_API_KEY_HERE
 ```
 
 ## Local Docker test
 
 ```bash
-docker build -t DOCKER_USERNAME/assessment-app:latest .
-docker run -d --name assessment-app -p 5000:5000 DOCKER_USERNAME/assessment-app:latest
+docker build -t pareenrathore/assessment-app:latest .
+docker run -d --name assessment-app -p 5000:5000 pareenrathore/assessment-app:latest
 curl http://localhost:5000/health
 ```
 
@@ -32,7 +32,7 @@ curl http://localhost:5000/health
 
 ```bash
 docker login
-docker push DOCKER_USERNAME/assessment-app:latest
+docker push pareenrathore/assessment-app:latest
 ```
 
 ## Deploy to EKS
