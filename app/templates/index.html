@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <title>{{ app_name }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f4f6f8; padding:40px; }
+    .card { background:white; padding:30px; border-radius:12px; max-width:700px; margin:auto; box-shadow:0 3px 12px #ccc; }
+    h1 { color:#1f2937; }
+    .ok { color:green; font-weight:bold; }
+    code { background:#eee; padding:3px 6px; border-radius:4px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>{{ app_name }}</h1>
+    <p class="ok">Application is running successfully on Kubernetes/EKS.</p>
+    <p><b>Version:</b> {{ version }}</p>
+    <p><b>Time:</b> {{ time }}</p>
+    <p>Health URL: <code>/health</code></p>
+    <p>Products API: <code>/api/products</code></p>
+  </div>
+</body>
+</html>

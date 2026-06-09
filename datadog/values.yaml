@@ -1,0 +1,9 @@
+datadog:
+  apiKey: "PASTE_DATADOG_API_KEY_HERE"
+  logs:
+    enabled: true
+    containerCollectAll: true
+  processAgent:
+    enabled: true
+clusterAgent:
+  enabled: true
