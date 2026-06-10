@@ -71,4 +71,3 @@ chmod +x ai-agent/troubleshoot.sh
 ```
 
 
-h
